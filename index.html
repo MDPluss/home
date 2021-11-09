@@ -5,43 +5,43 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <script type="text/javascript">
     function openLink(){
-    var frm = document.createElement("IFRAME");
-    var source = document.createAttribute("src")
-    var id = document.createAttribute("id")
-    var classe = document.createAttribute("class")
-    source.value = "https://droplr.com/how-to/productivity-tools/top-5-discord-moderation-bots-to-keep-your-server-safe/"
-    id.value = "tempframe"
-    classe.value = "frame"
-    frm.setAttributeNode(source);
-    frm.setAttributeNode(id);
-    frm.setAttributeNode(classe);
-    document.body.appendChild(frm);
-    //button
-    var frm = document.createElement("BUTTON");
-    var source = document.createAttribute("onclick")
-    var id = document.createAttribute("id")
-    var classe = document.createAttribute("class")
-    source.value = "closeLink()"
-    id.value = "tempbutton"
-    classe.value = "sbutton"
-    frm.setAttributeNode(source);
-    frm.setAttributeNode(id);
-    frm.setAttributeNode(classe);
-    document.body.appendChild(frm);
-    frm.innerHTML = "Close";
+        let frm = document.createElement("IFRAME");
+        let source = document.createAttribute("src")
+        let id = document.createAttribute("id")
+        let classe = document.createAttribute("class")
+        source.value = "https://droplr.com/how-to/productivity-tools/top-5-discord-moderation-bots-to-keep-your-server-safe/"
+        id.value = "tempframe"
+        classe.value = "frame"
+        frm.setAttributeNode(source);
+        frm.setAttributeNode(id);
+        frm.setAttributeNode(classe);
+        document.body.appendChild(frm);
+        //button
+        let frm = document.createElement("BUTTON");
+        let source = document.createAttribute("onclick")
+        let id = document.createAttribute("id")
+        let classe = document.createAttribute("class")
+        source.value = "closeLink()"
+        id.value = "tempbutton"
+        classe.value = "sbutton"
+        frm.setAttributeNode(source);
+        frm.setAttributeNode(id);
+        frm.setAttributeNode(classe);
+        document.body.appendChild(frm);
+        frm.innerHTML = "Close";
     }
     //
     function closeLink(){
-        var elem = document.getElementById("tempframe");
+        let elem = document.getElementById("tempframe");
         elem.parentNode.removeChild(elem);
-    //button
-    var elem = document.getElementById("tempbutton");
+        //button
+        let elem = document.getElementById("tempbutton");
         elem.parentNode.removeChild(elem);
     }
     </script>
 </head>
 <body >
-    <a herf="index.html">
+    <a href="index.html"></a>
     <div class="menu">
         <a target="_blank" href="https://discord.com/api/oauth2/authorize?client_id=760635452796698646&permissions=8&scope=bot">Invite</a>
         <a href="index.html">Home</a>
